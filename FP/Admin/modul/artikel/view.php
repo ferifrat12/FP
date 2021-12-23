@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Welcome to my Blogger</title>
+    <title>Selamat Data Di Sma Karasuno</title>
   </head>
   <body>
 
@@ -32,7 +32,7 @@
             </div>
 
             <div class="card-body">
-              <a href="../../../index.php" class="card-link">Kembali ke Index</a>
+              <a href="../../../index.php" class="card-link">Kembali ke Menu Utama</a>
             </div>
             </div>
             

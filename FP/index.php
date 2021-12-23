@@ -19,7 +19,7 @@ include 'admin/config/db_conn.php';
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">AMIKOM ARTICLE</a>
+    <a class="navbar-brand" href="#">Sma Karasuno</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -57,8 +57,8 @@ include 'admin/config/db_conn.php';
 
 <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">Halo ini adalah halaman artikel</h1>
-        <p class="col-md-8 fs-4">Artikel ini asli buatan anak amikom</p>
+        <h1 class="display-5 fw-bold">Halo ini adalah halaman berita</h1>
+        <p class="col-md-8 fs-4">Artikel ini asli buatan anak SMA karasuno</p>
         <!-- <button class="btn btn-primary btn-lg" type="button">Example button</button> -->
       </div>
 </div>
