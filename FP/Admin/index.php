@@ -11,7 +11,7 @@ if (isset($_SESSION['username'])) {
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="stylesheet" href="assets/css/bootstrap.css"> 
-  <title>Admin PWL</title> 
+  <title>Admin</title> 
 </head> 
 <body> 
 
