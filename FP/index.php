@@ -75,6 +75,7 @@ include 'admin/config/db_conn.php';
             <img src="./Admin/upload/artikel/<?php echo $row['gambar'];?>">
             <h2><?php echo $row[1]; ?></h2>
             <p><?php echo $row[2]; ?></p>
+            <img src="./Admin/upload/artikel/<?php echo $row['gambar']; ?>">
             <p><a class="btn btn-secondary" href="./Admin/modul/artikel/view.php?id=<?php echo $row[0] ?>" role="button">View details &raquo;</a></p>
           </div>
           <?php } ?>
