@@ -2,8 +2,8 @@
 
 include "../../config/db_conn.php";
 include "../../config/url.php";
-include "../../config/NamaGambar.php";
-include "../../config/hapusGambar.php";
+include "../../config/NamaGallery.php";
+include "../../config/hapusGallery.php";
 
 $act = (isset($_GET['act'])) ? $_GET['act']:"none";
 
