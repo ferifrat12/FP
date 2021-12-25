@@ -19,7 +19,7 @@ include 'admin/config/db_conn.php';
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Sma Karasuno</a>
+    <a class="navbar-brand" href="./index.php">Sma Karasuno</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -38,7 +38,7 @@ include 'admin/config/db_conn.php';
           <a class="nav-link active" aria-current="page" href="">Prestasi</a>
         </li>
         <li>          
-          <a class="nav-link active" aria-current="page" href="">Galeri</a>
+          <a class="nav-link active" aria-current="page" href="./gallery.php">Gallery</a>
         </li>
         <li>
           <a class="nav-link active" aria-current="page" href="">Kontak</a>
@@ -75,7 +75,6 @@ include 'admin/config/db_conn.php';
             <img src="./Admin/upload/artikel/<?php echo $row['gambar'];?>">
             <h2><?php echo $row[1]; ?></h2>
             <p><?php echo $row[2]; ?></p>
-            <img src="./Admin/upload/artikel/<?php echo $row['gambar']; ?>">
             <p><a class="btn btn-secondary" href="./Admin/modul/artikel/view.php?id=<?php echo $row[0] ?>" role="button">View details &raquo;</a></p>
           </div>
           <?php } ?>

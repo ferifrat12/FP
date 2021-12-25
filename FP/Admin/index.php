@@ -31,6 +31,9 @@ if (isset($_SESSION['username'])) {
         <a class="nav-link" href="?menu=artikel">Artikel</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="?menu=gallery">Gallery</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="../index.php">Kembali Ke webset</a>
       </li>
     </ul>
