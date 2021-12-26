@@ -11,18 +11,18 @@ include 'admin/config/db_conn.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="Admin/assets/css/bootstrap.css">
-    <title>Halaman Gallery</title>
+    <title>Halaman Berita</title>
   </head>
   <body>
     <div>
     <nav class="navbar navbar-expand-lg navbar-dark fw-bold fs-5"style="background-color: #FF87CA;">
   <div class="container-fluid">
   <a class="navbar-brand ml-2 " href="./index.php">
-      <img src="Admin/assets/logo.png" alt=""  width="85" height="85" class="ml-4">
-      <p class="fw-bold ">SMA Karasuno</p>
+      <img src="Admin/assets/logo.png" alt="" width="85" height="85" class="ml-4">
+      <p class="fw-bold">SMA Karasuno</p>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -69,8 +69,8 @@ include 'admin/config/db_conn.php';
 
 <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">Halo ini adalah halaman Gallery</h1>
-        <p class="col-md-8 fs-4">Gallery ini asli buatan anak SMA karasuno</p>
+        <h1 class="display-5 fw-bold">Halo ini adalah halaman berita</h1>
+        <p class="col-md-8 fs-4">Artikel ini asli buatan anak SMA karasuno</p>
         <!-- <button class="btn btn-primary btn-lg" type="button">Example button</button> -->
       </div>
 </div>
@@ -80,14 +80,14 @@ include 'admin/config/db_conn.php';
         <div class="row">
 
           <?php
-          $q = mysqli_query($conn,"select * from gallery limit 6 ");
+          $q = mysqli_query($conn,"select * from artikel limit 6 ");
           while ($row = mysqli_fetch_array($q)) {
           ?>
-          <div class="col-md-4">
-            <img src="./Admin/upload/gallery/<?php echo $row['gambar'];?>">
+          <div class="row-md-4">
+            <img src="./Admin/upload/artikel/<?php echo $row['gambar'];?>">
             <h2><?php echo $row[1]; ?></h2>
             <p><?php echo $row[2]; ?></p>
-            <p><a class="btn btn-secondary" href="./Admin/modul/gallery/view.php?id=<?php echo $row[0] ?>" role="button">View details &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="./Admin/modul/artikel/view.php?id=<?php echo $row[0] ?>" role="button">View details &raquo;</a></p>
           </div>
           <?php } ?>
         </div>

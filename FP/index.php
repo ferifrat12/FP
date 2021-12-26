@@ -13,26 +13,40 @@ include 'admin/config/db_conn.php';
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="Admin/assets/css/bootstrap.css">
     <title>Halaman Utama</title>
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-dark fw-bold fs-5"style="background-color: #FF87CA;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="./index.php">Sma Karasuno</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand ml-2 " href="./index.php">
+      <img src="Admin/assets/logo.png" alt="" width="85" height="85" class="ml-4">
+      <p class="fw-bold">SMA Karasuno</p>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+      </ul>
+      <form class="d-flex ">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 position-absolute bottom-50 end-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="">Profil</a>
         </li>
         <li>          
-          <a class="nav-link active" aria-current="page" href="">Berita</a>
+          <a class="nav-link active" aria-current="page" href="./berita.php">Berita</a>
         </li>
-        <li>          
-          <a class="nav-link active" aria-current="page" href="">Akademik</a>
+        <li class="dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Akademic
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Extrakurikuler</a></li>
+            <li><a class="dropdown-item" href="#">Kalender</a></li>
+          </ul>
         </li>
         <li>
           <a class="nav-link active" aria-current="page" href="">Prestasi</a>
@@ -44,16 +58,17 @@ include 'admin/config/db_conn.php';
           <a class="nav-link active" aria-current="page" href="">Kontak</a>
         </li>
         <li>
-          <a class="nav-link active" aria-current="page" href="./Admin/index.php">Login Admin</a>
+          <a class="nav-link active mr-4" aria-current="page" href="./Admin/index.php">Login Admin</a>
         </li>
       </ul>
-      <!-- <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form> -->
+        
+      </form>
     </div>
   </div>
 </nav>
+    <?php// include ('navbar.php'); ?>
+    </div>
+  
 
 <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
@@ -63,24 +78,8 @@ include 'admin/config/db_conn.php';
       </div>
 </div>
 
-<div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
 
-          <?php
-          $q = mysqli_query($conn,"select * from artikel limit 6 ");
-          while ($row = mysqli_fetch_array($q)) {
-          ?>
-          <div class="col-md-4">
-            <img src="./Admin/upload/artikel/<?php echo $row['gambar'];?>">
-            <h2><?php echo $row[1]; ?></h2>
-            <p><?php echo $row[2]; ?></p>
-            <p><a class="btn btn-secondary" href="./Admin/modul/artikel/view.php?id=<?php echo $row[0] ?>" role="button">View details &raquo;</a></p>
-          </div>
-          <?php } ?>
-        </div>
-        <hr>
-</div> <!-- /container -->
+
 
 
     <!-- Optional JavaScript; choose one of the two! -->
