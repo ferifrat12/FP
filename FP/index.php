@@ -18,7 +18,7 @@ include 'admin/config/db_conn.php';
   </head>
   <body>
     <div>
-    <nav class="navbar navbar-expand-lg navbar-dark fw-bold fs-5"style="background-color: #FF87CA;">
+    <nav class="navbar navbar-expand-lg navbar-dark fw-bold fs-5" style="background-color: #FF87CA; >
   <div class="container-fluid">
   <a class="navbar-brand ml-2 " href="./index.php">
       <img src="Admin/assets/logo.png" alt="" width="85" height="85" class="ml-4">
@@ -70,14 +70,64 @@ include 'admin/config/db_conn.php';
     </div>
   
 
-<div class="p-5 mb-4 bg-light rounded-3">
+<!-- <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Halo ini adalah halaman berita</h1>
         <p class="col-md-8 fs-4">Artikel ini asli buatan anak SMA karasuno</p>
-        <!-- <button class="btn btn-primary btn-lg" type="button">Example button</button> -->
+         <button class="btn btn-primary btn-lg" type="button">Example button</button>
       </div>
+</div> -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Admin/assets/back.jpg" height="500" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Admin/assets/back.jpg" height="500" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Admin/assets/back.jpg" height="500" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-
+<div class="container">
+<div class="row">
+    <div class="col">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, 
+        inventore reprehenderit quo veniam quod molestiae suscipit eligendi praesentium dolor ipsa eius rem sint at magnam qui dolorum. Odio, 
+        vitae maiores?
+      </p>
+    </div>
+    <div class="col">
+      2 of 2
+    </div>
+  </div>
+</div>
 
 
 
