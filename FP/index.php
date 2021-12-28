@@ -55,7 +55,7 @@ include 'admin/config/db_conn.php';
           <a class="nav-link active" aria-current="page" href="./gallery.php">Gallery</a>
         </li>
         <li>
-          <a class="nav-link active" aria-current="page" href="">Kontak</a>
+          <a class="nav-link active" aria-current="page" href="./kontak.php">Kontak</a>
         </li>
         <li>
           <a class="nav-link active mr-4" aria-current="page" href="./Admin/index.php">Login Admin</a>
