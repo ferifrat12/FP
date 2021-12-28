@@ -18,8 +18,9 @@ include 'admin/config/db_conn.php';
   </head>
   <body>
     <div>
-    <nav class="navbar navbar-expand-lg navbar-dark fw-bold fs-5" style="background-color: #FF87CA; >
+    <nav class="navbar navbar-expand-lg navbar-dark fw-bold fs-5"style="background-color: #FF87CA;">
   <div class="container-fluid">
+  
   <a class="navbar-brand ml-2 " href="./index.php">
       <img src="Admin/assets/logo.png" alt="" width="85" height="85" class="ml-4">
       <p class="fw-bold">SMA Karasuno</p>
@@ -45,7 +46,7 @@ include 'admin/config/db_conn.php';
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="#">Extrakurikuler</a></li>
-            <li><a class="dropdown-item" href="./kalender.php">Kalender</a></li>
+            <li><a class="dropdown-item" href="#">Kalender</a></li>
           </ul>
         </li>
         <li>
@@ -66,7 +67,6 @@ include 'admin/config/db_conn.php';
     </div>
   </div>
 </nav>
-    <?php// include ('navbar.php'); ?>
     </div>
   
 
