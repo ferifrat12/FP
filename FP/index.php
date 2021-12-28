@@ -46,7 +46,7 @@ include 'admin/config/db_conn.php';
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="#">Extrakurikuler</a></li>
-            <li><a class="dropdown-item" href="#">Kalender</a></li>
+            <li><a class="dropdown-item" href="./kalender.php">Kalender</a></li>
           </ul>
         </li>
         <li>
