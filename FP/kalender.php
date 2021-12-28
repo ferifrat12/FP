@@ -34,7 +34,7 @@ include 'admin/config/db_conn.php';
       <form class="d-flex ">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 position-absolute bottom-50 end-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="">Profil</a>
+          <a class="nav-link active" aria-current="page" href="./profil.php">Profil</a>
         </li>
         <li>          
           <a class="nav-link active" aria-current="page" href="./berita.php">Berita</a>
@@ -44,7 +44,7 @@ include 'admin/config/db_conn.php';
             Akademic
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Extrakurikuler</a></li>
+            <li><a class="dropdown-item" href="./ekskul.php">Extrakurikuler</a></li>
             <li><a class="dropdown-item" href="kalender.php">Kalender</a></li>
           </ul>
         </li>

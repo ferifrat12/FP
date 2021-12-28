@@ -10,7 +10,7 @@
 
     <title>Selamat Data Di Sma Karasuno</title>
   </head>
-  <body>
+  <body style="background-color: #FF87CA;">
 
   <div class="container mt-5">
       <div class="row">
@@ -32,7 +32,9 @@
             </div>
 
             <div class="card-body">
-              <a href="../../../index.php" class="card-link">Kembali ke Menu Utama</a>
+              <!--<a href="../../../index.php" class="card-link">Kembali ke Menu Utama</a>-->
+              
+              <button onclick="window.location.href='../../../index.php'" class="btn btn-primary">Kembali ke Menu Utama</button>
             </div>
             </div>
             

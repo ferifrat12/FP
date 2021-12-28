@@ -16,12 +16,14 @@ if(isset($_SESSION['id']) && isset($_SESSION['username'])){
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <link href="bootstrap-login.css" rel="stylesheet">
     <title>Login Page with Database</title>
   </head>
   <body>
+    <div style="background-color: #FF87CA;">
     <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh">
     
-    <form class="border shadow p-3 rounded" action="cek-login.php" method="POST" style="width: 450px;">
+    <form class="border shadow p-3 rounded bg-light" action="cek-login.php" method="POST" style="width: 450px;" >
     
     <h2>LOGIN</h2>
 
@@ -29,7 +31,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['username'])){
         <?php
 
         if (isset($_GET['error'])){
-            echo "<p class='error' style='background: #E57676; color:#FFFFFF;'>";
+            echo "<p class='error' style='background: #E57676; color:#FFFF;'>";
             echo $_GET['error'];
         }
     
@@ -48,6 +50,9 @@ if(isset($_SESSION['id']) && isset($_SESSION['username'])){
         <button type="submit" class="btn btn-primary" >Login</button>
     </form>
     </div>
+
+    </div>
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
