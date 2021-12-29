@@ -18,14 +18,14 @@
           <?php
               include "../../config/db_conn.php";
               $id = $_GET['id'];
-              $sql = "SELECT * FROM gallery WHERE id_gallery='$id'"; // Fetch data from the table article using id
+              $sql = "SELECT * FROM prestasi WHERE id_prestasi='$id'"; // Fetch data from the table article using id
               $result=mysqli_query($conn, $sql);
               $singleRow = mysqli_fetch_assoc($result);
 
           ?>
 
             <div class="card mx-auto" style="width: 50%;">
-            <img src="../../upload/gallery/<?php echo $singleRow['gambar']; ?>" class="card-img-top">
+            <img src="../../upload/prestasi/<?php echo $singleRow['gambar']; ?>" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $singleRow['judul'] ?></h5>
                 <p class="card-text"><?php echo $singleRow['isi'] ?></p>
