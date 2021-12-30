@@ -77,11 +77,51 @@ include 'admin/config/db_conn.php';
         <!-- <button class="btn btn-primary btn-lg" type="button">Example button</button> -->
       </div>
       <div >
-          <img src="admin/assets/kalender.jpg" alt="" width="1000px" >
-          <h2> Volly Ball</h2><br>
+          <img src="admin/assets/EksVolly.jpg" alt="" width="850px" >
+          <br><br>
+          <h2> Volly Ball</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nam alias hic quod accusamus, et excepturi! Beatae exercitationem sequi nostrum, commodi accusamus sapiente, enim eos delectus adipisci, numquam sed dolores.</p>
           
-      </div>
+      </div><br>
+      <div >
+          <img src="admin/assets/EksBasket.jpg" alt="" width="850px" >
+          <br><br>
+          <h2> Basket Ball</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nam alias hic quod accusamus, et excepturi! Beatae exercitationem sequi nostrum, commodi accusamus sapiente, enim eos delectus adipisci, numquam sed dolores.</p>
+          
+      </div><br>
+      <div >
+          <img src="admin/assets/EksMusic.jpg" alt="" width="850px" >
+          <br><br>
+          <h2> Music</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nam alias hic quod accusamus, et excepturi! Beatae exercitationem sequi nostrum, commodi accusamus sapiente, enim eos delectus adipisci, numquam sed dolores.</p>
+          
+      </div><br>
+      <div >
+          <img src="admin/assets/EksMancing.jpg" alt="" width="850px" >
+          <br><br>
+          <h2> Fishing</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nam alias hic quod accusamus, et excepturi! Beatae exercitationem sequi nostrum, commodi accusamus sapiente, enim eos delectus adipisci, numquam sed dolores.</p>
+          
+      </div><br>
+      <div >
+          <img src="admin/assets/EksBola.jpg" alt="" width="850px" >
+          <br><br>
+          <h2> Soccer</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nam alias hic quod accusamus, et excepturi! Beatae exercitationem sequi nostrum, commodi accusamus sapiente, enim eos delectus adipisci, numquam sed dolores.</p>
+          
+      </div><br>
+      <div >
+          <img src="admin/assets/EksMancing.jpg" alt="" width="850px" >
+          <br><br>
+          <h2> Pramuka</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nam alias hic quod accusamus, et excepturi! Beatae exercitationem sequi nostrum, commodi accusamus sapiente, enim eos delectus adipisci, numquam sed dolores.</p>
+          
+      </div><br>
+
+
+
+
 
 
 

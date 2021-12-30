@@ -79,22 +79,26 @@ include 'admin/config/db_conn.php';
 </div>
 <div class="container">
     <div class="row">
-        <div class="col">
-        <img src="admin/assets/Volly.png" alt="" width="500px">
-        </div>
-        <div class="col">
-        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione saepe quae cumque enim amet voluptatum ex doloremque unde dolorem expedita excepturi modi, quisquam minus necessitatibus, quos maxime sint voluptates fugiat!</h2>
+          <center>
+          <img src="admin/assets/SMA2.jpg" alt="center" width="1000px">
+          </center>
+        <div class="row">
+          <center><br>
+          <h2>SMA Karasuno</h2>
+        <p style="font-size: 22px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, voluptate maxime est blanditiis voluptatum officiis, incidunt exercitationem eligendi a soluta delectus ea magni debitis. Officia laboriosam quo quas et id?</p><br>
+          </center>
+        
     </div>
-   
     </div><br><br>
     <div class="row">
         <div class="col">
-        <img src="admin/assets/Volly.png" alt="" width="500px">
+        <img src="admin/assets/Fery.jpg" alt="" width="450px">
         </div>
         <div class="col">
-        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione saepe quae cumque enim amet voluptatum ex doloremque unde dolorem expedita excepturi modi, quisquam minus necessitatibus, quos maxime sint voluptates fugiat!</h2>
+        <h2>Kepala Sekolah SMA Karasuno</h2><br>
+        <p style="font-size: 22px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae earum, id, veniam eum repellat dolor suscipit, similique voluptas labore voluptatibus? Eius, animi veritatis suscipit libero aliquam eos veniam corrupti.</p>
+        <p style="font-size: 22px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae earum, id, veniam eum repellat dolor suscipit, similique voluptas labore voluptatibus? Eius, animi veritatis suscipit libero aliquam eos veniam corrupti.</p>
     </div>
-   
     </div>
     
 
