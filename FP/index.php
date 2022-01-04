@@ -34,7 +34,7 @@ include 'admin/config/db_conn.php';
       </ul>
       <form class="d-flex ">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 position-absolute bottom-50 end-0">
-      <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="./index.php">Home</a>
         </li>
         <li class="nav-item">
@@ -88,24 +88,24 @@ include 'admin/config/db_conn.php';
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="Admin/assets/back.jpg" height="500" class="d-block w-100" alt="...">
+      <img src="Admin/assets/SMA2.jpg" height="750" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+      <h2 data-animate="fadeInUp" style="background: rgba(0, 0, 0, 0.6);" class="fadeInUp animated">SMA KARASUNO</h2>
+      <p class="d-none d-sm-block fadeInUp animated" data-animate="fadeInUp" data-delay="200" style="background: rgba(0, 0, 0, 0.6);">WE ARE THE LEADER</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="Admin/assets/back.jpg" height="500" class="d-block w-100" alt="...">
+      <img src="Admin/assets/EksBasket.jpg" height="750" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+      <h2 data-animate="fadeInUp" style="background: rgba(0, 0, 0, 0.6);" class="fadeInUp animated">SMA KARASUNO</h2>
+      <p class="d-none d-sm-block fadeInUp animated" data-animate="fadeInUp" data-delay="200" style="background: rgba(0, 0, 0, 0.6);">WE ARE THE LEADER</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="Admin/assets/back.jpg" height="500" class="d-block w-100" alt="...">
+      <img src="Admin/assets/back.jpg" height="750" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+      <h2 data-animate="fadeInUp" style="background: rgba(0, 0, 0, 0.6);" class="fadeInUp animated">SMA KARASUNO</h2>
+      <p class="d-none d-sm-block fadeInUp animated" data-animate="fadeInUp" data-delay="200" style="background: rgba(0, 0, 0, 0.6);">WE ARE THE LEADER</p>
       </div>
     </div>
   </div>
@@ -118,16 +118,70 @@ include 'admin/config/db_conn.php';
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<div class="container">
+    <div id="carouselExampleControls" style="margin-top: 100px;" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="foto/bp3.png" class="d-block w-100" width="100%" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="foto/VO4jJiY.png" class="d-block w-100" width="100%"  alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="foto/bts-desktop-nawpic-16-scaled.jpg" class="d-block w-100" width="100%" alt="...">
+            alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="foto/c5a16e3a8354af2739a151ba71577574.jpg" class="d-block w-100" width="100%" alt="...">
+            alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="foto/ikon.png" class="d-block w-100" width="100%" alt="">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+<div class="container-fluid py-5">
 <div class="row">
-    <div class="col">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, 
-        inventore reprehenderit quo veniam quod molestiae suscipit eligendi praesentium dolor ipsa eius rem sint at magnam qui dolorum. Odio, 
-        vitae maiores?
-      </p>
+    <div class="row">
+    <h1 align="center">FASILITAS</h1>
     </div>
     <div class="col">
-      2 of 2
+    <img src="admin/assets/Kolamrenang.jpg" alt="" width="550px">
+    <h1>Kolam Renang</h1>
+    </div>
+    <div class="col">
+    <img src="admin/assets/gym.jpeg" alt="" width="600px" height="390px">
+    <h1>Gym</h1>
+    </div>
+    <div class="col">
+    <img src="admin/assets/LapanganVolly.jpg" alt="" width="600px" height="390px">
+    <h1>Lapangan Volly</h1>
+    </div>
+  </div> <br><br><br><br><br><br><br>
+
+  <div class="row">
+    <div class="col">
+    <img src="admin/assets/LOGO.jpg" alt="" width="550px">
+    </div>
+    <div class="col">
+    <h3 style="font-size: 40px;"><span style="color: #F68D10;">Sambutan</span> KEPSEK.</h3>
+    <h3 class="t300 ls4 lowercase" style="font-size: 25px; color: #999;">SMA Karasuno</h3> <br> <br>
+    <p><span style="font-size:11pt"><span style="background-color:white"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:20pt"><span style="color:#333333">Kata Sambutan</span></span></strong></span></span></span></p>
+    <p><br>
+    <span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><u><span style="font-size:20pt"><span style="color:#333333">Sambutan Kepala Sekolah</span></span></u><span style="font-size:20pt"><span style="color:#333333">&nbsp;<br>
+    Selamat Datang</span></span></span></span></p>
     </div>
   </div>
 </div>
@@ -145,5 +199,13 @@ include 'admin/config/db_conn.php';
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+    <footer class="bg-light text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: #FF87CA;">
+    <a style="font-size: 20px;" class="text-light">© 2022 Copyright By:</a>
+    <a style="font-size: 20px;" class="text-light" href="">SMA Karasuno</a>
+  </div>
+  <!-- Copyright -->
+</footer>
   </body>
 </html>

@@ -25,7 +25,7 @@
           ?>
 
             <div class="card mx-auto" style="width: 50%;">
-            <img src="../../upload/artikel/<?php echo $singleRow['gambar']; ?>" class="card-img-top">
+            <img src="../../upload/artikel/<?php echo $singleRow['gambar']; ?>" class="card-img-top"height=800px width=auto>
             <div class="card-body">
                 <h5 class="card-title"><?php echo $singleRow['judul'] ?></h5>
                 <p class="card-text"><?php echo $singleRow['isi'] ?></p>
@@ -33,7 +33,6 @@
 
             <div class="card-body">
               <!--<a href="../../../index.php" class="card-link">Kembali ke Menu Utama</a>-->
-              
               <button onclick="window.location.href='../../../index.php'" class="btn btn-primary">Kembali ke Menu Utama</button>
             </div>
             </div>
