@@ -88,7 +88,7 @@ include 'admin/config/db_conn.php';
           ?>
           <div class="row-md-4">
             <h1><?php echo $row[1]; ?></h1>
-            <img src="./Admin/upload/artikel/<?php echo $row['gambar'];?>"height=500px width=750px>
+            <img src="./Admin/upload/artikel/<?php echo $row['gambar'];?>"height=500px width=auto>
             <p style="font-size: 30px;"><?php echo $row[2]; ?></p>
             <p><a class="btn btn-secondary" href="./Admin/modul/artikel/view.php?id=<?php echo $row[0] ?>" role="button">View details &raquo;</a></p>
             <br><br><br><br>
